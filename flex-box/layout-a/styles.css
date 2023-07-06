@@ -65,3 +65,9 @@ main > section {
     background-color: #3F858C;
     height: 13vh;
 }
+
+@media (max-width: 920px) {
+    main {
+        flex-direction: column;
+    }
+}
